@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Hello VuePress</title><meta name="description" content="Just playing around">
+    <link rel="preload" href="/note/assets/style-d7f8aa1b.css" as="style"><link rel="stylesheet" href="/note/assets/style-d7f8aa1b.css">
+    <link rel="modulepreload" href="/note/assets/app-bdb95154.js"><link rel="modulepreload" href="/note/assets/framework-508df0c0.js"><link rel="modulepreload" href="/note/assets/404.html-dd064367.js"><link rel="modulepreload" href="/note/assets/404.html-60b35caa.js"><link rel="prefetch" href="/note/assets/index.html-18036727.js" as="script"><link rel="prefetch" href="/note/assets/Javascript.html-a197e995.js" as="script"><link rel="prefetch" href="/note/assets/React.html-6a8dd264.js" as="script"><link rel="prefetch" href="/note/assets/Redux.html-9b6d5bdd.js" as="script"><link rel="prefetch" href="/note/assets/Typescript.html-ad4a4613.js" as="script"><link rel="prefetch" href="/note/assets/Vite.html-4f3ddb44.js" as="script"><link rel="prefetch" href="/note/assets/Vue.html-5e4550c9.js" as="script"><link rel="prefetch" href="/note/assets/Webpack.html-5485a9cf.js" as="script"><link rel="prefetch" href="/note/assets/index.html-5e973cc9.js" as="script"><link rel="prefetch" href="/note/assets/Javascript.html-ef015095.js" as="script"><link rel="prefetch" href="/note/assets/React.html-3d6ac039.js" as="script"><link rel="prefetch" href="/note/assets/Redux.html-fa4e80ec.js" as="script"><link rel="prefetch" href="/note/assets/Typescript.html-b1f2708b.js" as="script"><link rel="prefetch" href="/note/assets/Vite.html-7feb87ff.js" as="script"><link rel="prefetch" href="/note/assets/Vue.html-7d562b1c.js" as="script"><link rel="prefetch" href="/note/assets/Webpack.html-56198cdc.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/note/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/note/assets/app-bdb95154.js" defer></script>
+  </body>
+</html>

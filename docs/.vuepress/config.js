@@ -1,28 +1,17 @@
-module.exports = {
+import { defineUserConfig, defaultTheme } from 'vuepress'
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance"
+
+export default defineUserConfig({
     title: 'Hello VuePress',
     description: 'Just playing around',
     base: '/note',
-    themeConfig: {
-        nav: [
+    theme:defaultTheme ({
+        navbar: [
             { text: 'Home', link: '/' },
             {
                 text: 'Guide',
-                ariaLabel: 'Guide',
-                items: [
-                { text: 'Javascript', link: '/guide/Javascript/' },
-                { text: 'Vue', link: '/guide/Vue/' },
-                { text: 'React', link: '/guide/React/' },
-                { text: 'Typescript', link: '/guide/Typescript/' },
-                { text: 'Webpack', link: '/guide/Webpack/' },
-                { text: 'Redux', link: '/guide/Redux/' }
-                ]
-            },
-            {
-                text: 'Languages',
-                ariaLabel: 'Language Menu',
-                items: [
-                { text: 'Chinese', link: '/language/chinese/' },
-                { text: 'Japanese', link: '/language/japanese/' }
+                children: [
+                '/guide/Javascript.md','/guide/Vue.md','/guide/React.md','/guide/Typescript.md', '/guide/Webpack.md','/guide/Redux.md'
                 ]
             },
             { text: 'Github', link: 'https://google.com' },
@@ -30,5 +19,12 @@ module.exports = {
         sidebar: 'auto',
         lastUpdated: 'Last Updated',
         smoothScroll: true
-    }
-}
+    }),
+    plugins: [
+        mdEnhancePlugin({
+          codetabs: true,
+          mark: true,
+        }),
+      ],
+})
+
