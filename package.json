@@ -1,0 +1,25 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenaChenv/note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenaChenv/note/issues"
+  },
+  "homepage": "https://github.com/lenaChenv/note#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.61",
+    "vuepress-plugin-md-enhance": "^2.0.0-beta.193",
+    "vuepress-theme-hope": "^2.0.0-beta.193"
+  }
+}

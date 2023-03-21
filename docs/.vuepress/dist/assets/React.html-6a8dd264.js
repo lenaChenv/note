@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f0054674","path":"/guide/React.html","title":"hello React","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"guide/React.md"}');export{e as data};

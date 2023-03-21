@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as o,R as e,t as c}from"./framework-508df0c0.js";const r={},s=e("h1",{id:"hello-vite",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#hello-vite","aria-hidden":"true"},"#"),c(" hello Vite")],-1),i=[s];function l(n,_){return a(),o("div",null,i)}const h=t(r,[["render",l],["__file","Vite.html.vue"]]);export{h as default};
