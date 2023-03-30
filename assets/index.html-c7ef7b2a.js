@@ -1,0 +1,1 @@
+import{_ as t,W as a,X as o,Y as e,Z as r}from"./framework-412d6363.js";const c={},d=e("h1",{id:"hello-redux",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#hello-redux","aria-hidden":"true"},"#"),r(" hello Redux")],-1),n=[d];function s(l,_){return a(),o("div",null,n)}const i=t(c,[["render",s],["__file","index.html.vue"]]);export{i as default};
